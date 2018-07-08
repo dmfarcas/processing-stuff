@@ -8,7 +8,7 @@ float dx;  // Value for incrementing X, a function of period and xspacing
 float[] yvalues;  // Using an array to store height values for the wave
 
 void setup() {
-  size(800, 360);
+  size(600, 600);
   w = width-16;
   dx = (TWO_PI / period) * xspacing;
   yvalues = new float[w / xspacing];
